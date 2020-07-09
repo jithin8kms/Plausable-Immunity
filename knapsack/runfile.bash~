@@ -1,0 +1,8 @@
+#!/bin/bash
+
+path=`ls ./data`
+
+for file in $path
+do
+	`py solver.py ./data/$file`
+done

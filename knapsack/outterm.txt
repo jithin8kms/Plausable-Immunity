@@ -1,0 +1,221 @@
+solving for ks_100_0
+99837 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_100_1
+1333930 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_100_2
+10892 0
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_1000_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+    print(solve_it(input_data))
+  File "solver.py", line 48, in solve_it
+    rec_fun(capacity, item_count)
+  File "solver.py", line 46, in rec_fun
+    rec_fun(index, array_index)
+  File "solver.py", line 46, in rec_fun
+    rec_fun(index, array_index)
+  File "solver.py", line 46, in rec_fun
+    rec_fun(index, array_index)
+  [Previous line repeated 994 more times]
+  File "solver.py", line 40, in rec_fun
+    if array_index == 0:
+RecursionError: maximum recursion depth exceeded in comparison
+solving for ks_10000_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+    print(solve_it(input_data))
+  File "solver.py", line 27, in solve_it
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+MemoryError
+solving for ks_106_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+    print(solve_it(input_data))
+  File "solver.py", line 27, in solve_it
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+MemoryError
+solving for ks_19_0
+12248 0
+0 0 1 0 0 1 0 1 0 0 0 0 1 1 0 0 0 0 0
+solving for ks_200_0
+100236 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_200_1
+1103604 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_30_0
+99798 0
+0 0 1 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0
+solving for ks_300_0
+1688692 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_4_0
+19 0
+0 0 1 1
+solving for ks_40_0
+99924 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0
+solving for ks_400_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+    print(solve_it(input_data))
+  File "solver.py", line 27, in solve_it
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+MemoryError
+solving for ks_45_0
+23974 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_50_0
+142156 0
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0
+solving for ks_50_1
+5345 0
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_500_0
+54939 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_60_0
+99837 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_82_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+    print(solve_it(input_data))
+  File "solver.py", line 27, in solve_it
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+  File "solver.py", line 27, in <listcomp>
+    n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+MemoryError
+solving for ks_lecture_dp_1
+11 0
+1 1 0
+solving for ks_lecture_dp_2
+44 0solving for ks_100_0
+99837 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_100_1
+1333930 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_100_2
+10892 0
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0
+solving for ks_1000_0
+Traceback (most recent call last):
+  File "solver.py", line 63, in <module>
+      print(solve_it(input_data))
+        File "solver.py", line 48, in solve_it
+	    rec_fun(capacity, item_count)
+	      File "solver.py", line 46, in rec_fun
+	          rec_fun(index, array_index)
+		    File "solver.py", line 46, in rec_fun
+		        rec_fun(index, array_index)
+			  File "solver.py", line 46, in rec_fun
+			      rec_fun(index, array_index)
+			        [Previous line repeated 994 more times]
+				  File "solver.py", line 40, in rec_fun
+				      if array_index == 0:
+				      RecursionError: maximum recursion depth exceeded in comparison
+				      solving for ks_10000_0
+				      Traceback (most recent call last):
+				        File "solver.py", line 63, in <module>
+					    print(solve_it(input_data))
+					      File "solver.py", line 27, in solve_it
+					          n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+						    File "solver.py", line 27, in <listcomp>
+						        n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+							  File "solver.py", line 27, in <listcomp>
+							      n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+							      MemoryError
+							      solving for ks_106_0
+							      Traceback (most recent call last):
+							        File "solver.py", line 63, in <module>
+								    print(solve_it(input_data))
+								      File "solver.py", line 27, in solve_it
+								          n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+									    File "solver.py", line 27, in <listcomp>
+									        n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+										  File "solver.py", line 27, in <listcomp>
+										      n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+										      MemoryError
+										      solving for ks_19_0
+										      12248 0
+										      0 0 1 0 0 1 0 1 0 0 0 0 1 1 0 0 0 0 0
+										      solving for ks_200_0
+										      100236 0
+										      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+										      solving for ks_200_1
+										      1103604 0
+										      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+										      solving for ks_30_0
+										      99798 0
+										      0 0 1 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0
+										      solving for ks_300_0
+										      1688692 0
+										      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+										      solving for ks_4_0
+										      19 0
+										      0 0 1 1
+										      solving for ks_40_0
+										      99924 0
+										      0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0
+										      solving for ks_400_0
+										      Traceback (most recent call last):
+										        File "solver.py", line 63, in <module>
+											    print(solve_it(input_data))
+											      File "solver.py", line 27, in solve_it
+											          n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+												    File "solver.py", line 27, in <listcomp>
+												        n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+													  File "solver.py", line 27, in <listcomp>
+													      n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+													      MemoryError
+													      solving for ks_45_0
+													      23974 0
+													      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+													      solving for ks_50_0
+													      142156 0
+													      0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0
+													      solving for ks_50_1
+													      5345 0
+													      1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
+													      solving for ks_500_0
+													      54939 0
+													      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+													      solving for ks_60_0
+													      99837 0
+													      0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+													      solving for ks_82_0
+													      Traceback (most recent call last):
+													        File "solver.py", line 63, in <module>
+														    print(solve_it(input_data))
+														      File "solver.py", line 27, in solve_it
+														          n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+															    File "solver.py", line 27, in <listcomp>
+															        n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+																  File "solver.py", line 27, in <listcomp>
+																      n_array = [[0 for w in range(capacity + 1)] for i in range(item_count + 1)]
+																      MemoryError
+																      solving for ks_lecture_dp_1
+																      11 0
+																      1 1 0
+																      solving for ks_lecture_dp_2
+																      44 0
+																      1 0 0 
+1 0 0 1
