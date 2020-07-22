@@ -5,10 +5,10 @@ Created on Sat Jul 18 09:38:11 2020
 @author: jithi
 """
 import math
-from copy import deepcopy
+import time
 
 total_possible_diagonals = 0
-estimate_global  = 0
+
 def generate_permutation(array, i, j, filled_diagonals, estimate, n):
 
     global total_possible_diagonals
@@ -36,15 +36,15 @@ def generate_permutation(array, i, j, filled_diagonals, estimate, n):
         j_nxt = j + 1
         i_nxt = i
 
-    generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals, estimate=estimate, n=n)
+    generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals, estimate=estimate, n=n)
 
     if isExtendable(array, i, j, -1, n):
         array[i][j] = -1
-        generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, estimate=estimate, n=n)
+        generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, estimate=estimate, n=n)
 
     if isExtendable(array, i, j, 1, n):
         array[i][j] = 1
-        generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, estimate=estimate, n=n)
+        generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, estimate=estimate, n=n)
 
 
 def isExtendable(array, i, j, fill, n):
@@ -67,10 +67,10 @@ def isExtendable(array, i, j, fill, n):
 
     return True
 
+start_time = time.time()
 nnn = 5
-
+estimate_global  = 0
 grid = [[0 for i in range(nnn)] for j in range(nnn)]
-generate_permutation(array=deepcopy(grid), i=0, j=0, filled_diagonals=0, estimate=0, n=nnn)
+generate_permutation(array=[x[:] for x in grid], i=0, j=0, filled_diagonals=0, estimate=0, n=nnn)
 print(total_possible_diagonals)
-
-
+print("--- %s seconds ---" % (time.time() - start_time))
