@@ -26,15 +26,15 @@ def generate_permutation(array, i, j, filled_diagonals, tot_diagonals, n):
         j_nxt = j + 1
         i_nxt = i
 
-    generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals, tot_diagonals=tot_diagonals, n=n)
+    generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals, tot_diagonals=tot_diagonals, n=n)
 
     if isExtendable(array, i, j, -1, n):
         array[i][j] = -1
-        generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, tot_diagonals=tot_diagonals, n=n)
+        generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, tot_diagonals=tot_diagonals, n=n)
 
     if isExtendable(array, i, j, 1, n):
         array[i][j] = 1
-        generate_permutation(array=deepcopy(array), i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, tot_diagonals=tot_diagonals, n=n)
+        generate_permutation(array=[x[:] for x in array], i=i_nxt, j=j_nxt, filled_diagonals=filled_diagonals+1, tot_diagonals=tot_diagonals, n=n)
 
 
 def isExtendable(array, i, j, fill, n):
@@ -60,4 +60,4 @@ def isExtendable(array, i, j, fill, n):
 nnn = 5
 
 grid = [[0 for i in range(nnn)] for j in range(nnn)]
-generate_permutation(array=deepcopy(grid), i=0, j=0, filled_diagonals=0, tot_diagonals=16, n=nnn)
+generate_permutation(array=[x[:] for x in grid], i=0, j=0, filled_diagonals=0, tot_diagonals=16, n=nnn)
