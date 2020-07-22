@@ -7,12 +7,19 @@ Created on Sat Jul 18 09:38:11 2020
 import math
 from copy import deepcopy
 
+def print_diagonal(array):
+    mapping = {0: " ", 1: "\\", -1: "/"}
+    for i in range(0, len(array)):
+        print(*[mapping[el] for el in array[i]])
+    print("\n\n")
+
 
 def generate_permutation(array, i, j, filled_diagonals, tot_diagonals, n):
 
     if filled_diagonals == tot_diagonals:
-        print(array)
+        print_diagonal(array)
         return
+
     no_of_cells_remaining = (math.pow(n, 2) - (n * i) - j)
 
     if no_of_cells_remaining < tot_diagonals - filled_diagonals:
